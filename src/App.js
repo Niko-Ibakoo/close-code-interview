@@ -10,6 +10,7 @@ import Boxes from "./components/Boxes";
 //
 // Feel free to change the component structure at will.
 function App() {
+
   const [selected, setSelected] = useState([]);
   const [data, setData] = useState(Data);
   //get name function
@@ -43,14 +44,14 @@ function App() {
       >
         Hello Close Team, <br />
         <br />
-        I was having a hard time working on the code challange in the dafault
+        I was having a hard time working on the code challenge in the dafault
         IDE , I am not familiar with that IDE so I decided to recreate the code
-        challange from scratch locally and then I delployed it on Netlify for
+        challenge from scratch locally and then I delployed it on Netlify for
         you to review. I hope that is not an issue, I have completed the task
-        (hopefully I understood the assignment correctly, if not I apologize.)
+        to the best of my understanding.
         <br />
-        #I haven't included any edge cases as it was not a requirement, and I
-        focused only on the logic, so it's ugly but it works! :) <br />
+         I focused only on the logic, so it's ugly but it works! :)
+         <br />
         <br />
         You can also check the code here :{" "}
         <a href="https://github.com/Niko-Ibakoo/close-code-interview.git">
