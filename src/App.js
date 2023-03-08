@@ -23,18 +23,21 @@ function App() {
 
   return (
     <div className="App">
-    <h1>Close coding challenge</h1>
+    <h1 style={{textAlign:'center'}}>Close coding challenge</h1>
     {selected[0]&& selected.map(item=>(
       <span key={item}>{item}</span>
     ))}
       <div className="container">
       {boxes}
       </div>
-      <div>
+      <div style={{backgroundColor:'grey',marginTop:'30px',borderRadius:'10px', padding:'20px', fontSize:'22px'}}>
         Hello Close Team, <br /><br />
-        I was having a hard time working on the code challange in that IDE , I am not familiar with that IDE so I decided to recreate the code challange from scratch locally and then I delployed it on Netlify for you to review.
+        I was having a hard time working on the code challange in the dafault IDE , I am not familiar with that IDE so I decided to recreate the code challange from scratch locally and then I delployed it on Netlify for you to review.
+        I hope that is not an issue, I have completed the task (hopefully I understood the assignment correctly, if not I apologize.)
         <br />
-        You can check the code here : 
+        #I haven't included any edge cases as it was not a requirement, and I focused only on the logic, so it's ugly but it works! :) <br />
+        <br />
+        You can also check the code here : <a href="https://github.com/Niko-Ibakoo/close-code-interview.git">GitHub</a>
       </div>
     </div>
   );
